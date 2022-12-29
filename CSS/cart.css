@@ -1,0 +1,115 @@
+/*Start global rules*/
+
+body {
+    font-family: cursive;
+    font-size: inherit; 
+    background-color: rgb(223, 222, 222);
+    color: rgb(73, 73, 73);
+}
+
+
+/* Small Screen */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+/* Medium Screen */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* large Screen */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+/*End Global rules*/
+
+/* Start Body  */
+.container {
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    margin: auto;
+    background-color: #eee;
+    width: 700px;
+    border-radius: 10px;
+}
+.container .content {
+    border-bottom: 2px solid #333;
+}
+h2{
+    line-height: 1.45;
+    font-size: 36px;
+    font-weight: inherit;
+}
+
+
+/* Srart items */
+.items {
+    display: grid;
+    grid-template-columns:120px 530px 50px;
+}
+.items input {
+    width: 25px;
+    height: 25px;
+    background-color: #eee;
+    border: none;
+    text-align: center;
+}
+.items div {
+    width: 100px;
+}
+.items .quan {
+    width: 400px;
+    height: 50px;
+    margin-top:48px ;
+}
+.items button {
+    width: 30px;
+    height: 25px;
+    background-color: #222;
+    color: #eee;
+    border-radius: 10px;
+}
+/* End Items */
+/* Start footer */
+.footer {
+    direction: rtl;
+    border-top: rgb(122, 122, 122);
+    border-top: solid;
+    padding-top: 20px;
+}
+.footer .checkout {
+    width: 300px;
+    direction: ltr;
+}
+.footer .total_price {
+    margin-left: 20px;
+    font-size: 18px;
+    
+}
+.footer .price {
+    font-weight:bold;
+    margin-left: 20px;
+    font-size: 20px;
+} 
+.footer button {
+    width: 300px;
+    height: 60px;
+    margin-top: 15px;
+    background-color: #222;
+    color: #eee;
+    font-size: inherit;
+    font-weight: bold;
+    border-radius: 25px;
+    font-family: cursive;
+    cursor: pointer;
+}
+/* End Footer  */
